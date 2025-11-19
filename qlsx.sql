@@ -1,0 +1,3 @@
+ALTER TABLE losanpham 
+ADD COLUMN tenLo VARCHAR(100) AFTER maLo,
+ADD COLUMN trangThai VARCHAR(50) DEFAULT 'Chờ kiểm định';
